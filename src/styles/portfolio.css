@@ -1,0 +1,45 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-project {
+    max-width: 400px;
+    border-radius: 15px;
+    border: 1px solid #70D0D3;;
+}
+
+.img-project:hover {
+    max-width: 450px;
+    transition: all .4s;
+}
+
+@media ( max-width: 1400px) {
+    .projects-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media ( max-width: 1050px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media ( max-width: 480px) {
+    .img-project {
+        max-width: 350px;
+    }
+    .img-project:hover {
+        max-width: 370px;
+    }
+}
+
+@media ( max-width: 350px) {
+    .img-project {
+        max-width: 280px;
+    }
+    .img-project:hover {
+        max-width: 370px;
+    }
+}

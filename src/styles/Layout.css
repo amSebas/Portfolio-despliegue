@@ -1,0 +1,88 @@
+.navigation{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  width: 20rem;
+  top: 0;
+  left: 0;
+  padding: 6rem 5rem;
+  background-color: #9CBBCF;
+  transition: all .4s ease-in-out;
+  z-index: 1000;
+}
+
+.navigation a{
+  position: relative;
+  margin: 0 10px 25px 0;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.div-box{
+  display: flex;
+}
+
+.div-box p{
+  margin: 0 10px;
+}
+
+.nativation.active, .div-box:hover{
+  font-size: 22px;
+  left: 10px;
+  border-bottom: 1px solid black;
+  transition: all .4s;
+}
+
+@media ( max-width: 815px) {
+  .navigation{
+      width: 15rem;
+      padding: 6rem 3rem;
+  }
+}
+
+@media ( max-width: 735px) {
+  .navigation{
+      flex-direction: row;
+      align-items: center;
+      width: 100vw;
+      height: 6rem;
+      top: 90%;
+      padding: 0;
+  }
+  .navigation a{
+      margin-bottom: 0;
+  }
+}
+
+@media (max-width: 495px){
+  .navigation a{
+      font-size: 15px;
+  }
+
+  .nativation.active, .div-box:hover{
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 320px){
+  .navigation{
+      top: 95%;
+      height: 3rem;
+  }
+  .navigation a{
+      font-size: 8px;
+  }
+
+  .nativation.active, .div-box:hover{
+      font-size: 12px;
+  }
+
+  .sections{
+      padding: 1rem;
+  }
+
+}
