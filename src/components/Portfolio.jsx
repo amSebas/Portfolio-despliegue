@@ -18,7 +18,7 @@ export default function Portfolio () {
                 <div className='box-items'>
                     <center> <h2>To-do-list</h2> </center>
                     <div className='projects'>
-                        <a href="https://sabujchat-web.vercel.app/">
+                        <a href="https://react-list-phi.vercel.app/">
                             <img className='img-project' src={Sabujcha} alt="pokedex" />
                         </a>
                     </div>
