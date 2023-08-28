@@ -3,6 +3,29 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.box-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.projects {
+    display: grid;
+}
+
+.projects:last-child i{
+    color: #fff;
+    font-size: 40px;
+}
+
+.projects:last-child i:hover{
+    font-size: 45px;
+    color: aliceblue;
+    transition: all .4s;
+}
+
 .img-project {
     max-width: 400px;
     border-radius: 15px;
@@ -14,7 +37,15 @@
     transition: all .4s;
 }
 
-@media ( max-width: 1400px) {
+.projects .description {
+    margin-bottom: 10px;
+}
+
+.text-description {
+    margin-bottom: 20px;
+}
+
+@media ( max-width: 1650px) {
     .projects-grid {
         grid-template-columns: 1fr 1fr;
     }

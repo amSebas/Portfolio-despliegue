@@ -59,6 +59,12 @@
 }
 
 @media (max-width: 495px){
+
+  .navigation {
+    top: 93%;
+    height: 4rem;
+  }
+
   .navigation a{
       font-size: 15px;
   }
@@ -68,10 +74,30 @@
   }
 }
 
+@media (max-width: 375px){
+  .navigation{
+      top: 95%;
+      height: 3rem;
+  }
+  .navigation a{
+      font-size: 10px;
+      
+  }
+
+  .nativation.active, .div-box:hover{
+      font-size: 12px;
+  }
+
+  .sections{
+      padding: 1rem;
+  }
+}
+
 @media (max-width: 320px){
   .navigation{
       top: 95%;
       height: 3rem;
+      width: 100%;
   }
   .navigation a{
       font-size: 8px;
@@ -84,5 +110,4 @@
   .sections{
       padding: 1rem;
   }
-
 }

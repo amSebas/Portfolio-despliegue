@@ -67,8 +67,14 @@ body{
   }
 }
 
-@media (max-width: 400px ) {
+@media (max-width: 425px ) {
   .sections{
     padding: 2rem;
+  }
+}
+
+@media (max-width: 375px ) {
+  .sections{
+    padding: 1rem;
   }
 }
