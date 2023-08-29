@@ -2,7 +2,7 @@ import '../styles/services.css'
 
 export default function ServiceCard () {
     return (
-        <div className='Primary-heading'>
+        <div className='content'>
             <h1>Services</h1>
             <div className='grid-services'>
                 <div className='service'>

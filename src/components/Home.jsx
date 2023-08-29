@@ -3,13 +3,15 @@ import CV1 from '../images/CV1.png'
 
 export default function Home () {
     return(
-        <div className='Primary-heading'>
-            <h1>Home</h1>
+        <div className='content'>
+            <div className='after'>
+                <h1>Home</h1>
+            </div>
             <div className='box-1'>
                 <div className='text-box'>
-                    <h2>Hola!, Soy Juan Sebastian Mendez Rodriguez</h2>
-                    <h3>Desarrollador web front-end</h3>
-                    <h3>Como desarrollador front-end me especializo en crear sitios web dinamicos y responsivos haciendo uso de herramientas como HTML5, CSS3, JavaScript,Figma, librerias como react.js,
+                    <h2 className='righty-animation'>¡Hola!, Soy Juan Sebastian Mendez Rodriguez</h2>
+                    <h3 className='righty-animation'>Desarrollador web front-end</h3>
+                    <h3 className='lefty-animation'>Como desarrollador front-end me especializo en crear sitios web dinamicos y responsivos haciendo uso de herramientas como HTML5, CSS3, JavaScript,Figma, librerias como react.js,
                         node.js y conocimiento de metodologias agiles.
                     </h3>
                     <div className='buttons'>
@@ -23,7 +25,7 @@ export default function Home () {
                     </div>
                 </div>
                 <div className='photo-presentation'>
-                    <img src={CV1} alt="CV" />
+                    <img src={CV1} alt="CV" className='my-photo' />
                 </div>
             </div>
         </div>  

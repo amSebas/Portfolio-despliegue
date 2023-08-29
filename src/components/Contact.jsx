@@ -30,7 +30,7 @@ export default function Contact () {
     reset()
   };
     return(
-        <div className='Primary-heading'> 
+        <div className='content'> 
             <h1>Contact</h1> 
             <h2 className='question'>Tienes alguna pregunta?</h2>
             <div className='contact'>
@@ -49,6 +49,10 @@ export default function Contact () {
                     <h2>Enviame un email</h2>
                     <h3>sebaslgr@gmail.com</h3>
                 </div>
+            </div>
+            <div className='text-before-form'>
+              <h2>Enviame un email</h2>
+              <h3>¡Soy muy atento!</h3>
             </div>
             <form className='grid-input' id='form' onSubmit={handleSubmit(onSubmit)}>
                 <div className='content-input'>

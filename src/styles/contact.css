@@ -19,7 +19,16 @@
     padding: 20px 0 0 0;
     background-color: #9CBBCF;
     border-radius: 10px;
-    
+    animation: scale-up-center .8s;
+}
+
+@keyframes scale-up-center { 
+    0% {
+        transform:scale(.1)
+    } 
+    100%{ 
+        transform:scale(1)
+    } 
 }
 
 .card-content i {
@@ -42,6 +51,14 @@
 
 /*-------------------------------------------form----------------------------------------------------*/
 
+.text-before-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
 .text {
     display: flex;
     align-items: center;
@@ -63,7 +80,6 @@
     display: grid;
     grid-template: 1fr/ 1fr 1fr;
     gap: 10px;
-    padding: 100px 0;
 }
 
 .grid-input input[type="text"] {

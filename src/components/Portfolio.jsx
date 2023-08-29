@@ -4,7 +4,7 @@ import ToDoList from '../images/To-do-list.PNG'
 
 export default function Portfolio () {
     return(
-        <div className='Primary-heading'>
+        <div className='content'>
             <h1>Portfolio</h1>
             <div className='projects-grid'>
                 <div className='box-items'>

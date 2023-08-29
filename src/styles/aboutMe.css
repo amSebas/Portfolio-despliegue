@@ -1,4 +1,18 @@
-.Primary-heading h2, .Primary-heading h3{
+.content-box {
+    position: relative;
+    left: 100%;
+    animation:slide-left 0.4s linear both;
+}
+
+@keyframes slide-left{
+    0% {
+      transform:translateX(0)
+    }
+    100% {transform:translateX(-100%)
+    }
+  }
+
+.content h2, .content h3{
     margin-bottom: 30px;
 }
 
