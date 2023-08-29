@@ -6,6 +6,7 @@ import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import ServiceCard from './components/ServiceCard';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact'
 import Error from './components/Error';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="AboutMe" element={<section className="sections"><AboutMe /></section>}/>
             <Route path="Services" element={<section className="sections"> <ServiceCard /></section>}/>
             <Route path="Portfolio" element={<section className="sections"> <Portfolio /> </section>}/>
+            <Route path="Contact" element={<section className="sections"> <Contact /> </section>}/>
             <Route path='*' element={<section className="sections"> <Error /> </section>}/>
           </Route>
         </Routes>

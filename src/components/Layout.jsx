@@ -29,6 +29,12 @@ export default function() {
                 <p> Portfolio </p>
               </div>
             </NavLink>
+            <NavLink to="/Contact" >
+              <div className="div-box">
+                <i className="fa-solid fa-comment-dots"></i>
+                <p> Contact </p>
+              </div>
+            </NavLink>
           </nav>
           <Outlet /> {/* Aquí se mostrará el contenido de las rutas anidadas */}
         </div>
