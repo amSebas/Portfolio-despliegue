@@ -37,20 +37,21 @@
   transition: all .4s;
 }
 
-@media ( max-width: 815px) {
+@media ( max-width: 1024px) {
   .navigation{
       width: 15rem;
       padding: 6rem 3rem;
   }
 }
 
-@media ( max-width: 735px) {
+
+@media ( max-width: 768px) {
   .navigation{
       flex-direction: row;
       align-items: center;
       width: 100vw;
-      height: 6rem;
-      top: 90%;
+      height: 5rem;
+      top: 91%;
       padding: 0;
   }
   .navigation a{
@@ -61,16 +62,26 @@
 @media (max-width: 495px){
 
   .navigation {
-    top: 93%;
-    height: 4rem;
+    top: 94.5%;
+    height: 3rem;
   }
 
   .navigation a{
-      font-size: 15px;
+      font-size: 13px;
   }
 
-  .nativation.active, .div-box:hover{
-      font-size: 16px;
+  .div-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nativation.active, .div-box:hover {
+    background-color: #aed0e9;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
   }
 }
 
@@ -80,14 +91,12 @@
       height: 3rem;
   }
   .navigation a{
-      font-size: 10px;
-      
+      font-size: 12px;   
   }
 
   .nativation.active, .div-box:hover{
-      font-size: 12px;
+      font-size: 14px;
   }
-
   .sections{
       padding: 1rem;
   }
@@ -100,14 +109,10 @@
       width: 100%;
   }
   .navigation a{
-      font-size: 8px;
+      font-size: 9px;
   }
 
   .nativation.active, .div-box:hover{
-      font-size: 12px;
-  }
-
-  .sections{
-      padding: 1rem;
+      font-size: 9.5px;
   }
 }
