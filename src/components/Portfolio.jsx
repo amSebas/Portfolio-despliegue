@@ -1,6 +1,7 @@
 import '../styles/portfolio.css'
 import Pokedex from '../images/pokedex.PNG'
 import ToDoList from '../images/To-do-list.PNG'
+import Genero from '../images/genero_front.PNG'
 
 export default function Portfolio () {
     return(
@@ -10,8 +11,8 @@ export default function Portfolio () {
                 <div className='box-items'>
                     <h2>Genero-front </h2> 
                     <div className='projects'>
-                        <a href="/">
-                            <img className='img-project' src={Pokedex} alt="pokedex" />
+                        <a href="https://genero-front-six.vercel.app/">
+                            <img className='img-project' src={Genero} alt="pokedex" />
                         </a>
                         <h3 className='description'>Description:</h3>
                         <div className='text-description'>
