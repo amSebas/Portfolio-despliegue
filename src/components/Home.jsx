@@ -9,14 +9,14 @@ export default function Home () {
             </div>
             <div className='box-1'>
                 <div className='text-box'>
-                    <h2 className='righty-animation'>¡Hola!, Soy Juan Sebastian Mendez Rodriguez</h2>
+                    <h2 className='righty-animation'>¡Hola!, Soy Juan Sebastián Méndez Rodríguez</h2>
                     <h3 className='righty-animation'>Desarrollador web front-end</h3>
-                    <h3 className='lefty-animation'>Como desarrollador front-end me especializo en crear sitios web dinamicos y responsivos haciendo uso de herramientas como HTML5, CSS3, JavaScript,Figma, librerias como react.js,
-                        node.js y conocimiento de metodologias agiles.
+                    <h3 className='lefty-animation'>Como desarrollador front-end me especializo en crear sitios web dinámicos y responsivos haciendo uso de herramientas como HTML5, CSS3, JavaScript, Figma, librerías como react.js,
+                        node.js y conocimiento de metodologías ágiles.
                     </h3>
                     <div className='buttons'>
-                        <a className='btn' href='./AboutMe'>Mas acerca de mi</a>
-                        <a className='btn' href='https://drive.google.com/file/d/13MnaIhoQS_gSZBMarazLKBejmPArHey4/view?usp=sharing'>Descargar cv</a>
+                        <a className='btn' href='./AboutMe'>Más acerca de mí</a>
+                        <a className='btn' href='https://drive.google.com/file/d/13MnaIhoQS_gSZBMarazLKBejmPArHey4/view?usp=sharing'>Descargar CV</a>
                     </div>
                     <div className='social-media'>
                         <a href='https://www.linkedin.com/in/juan-sebastian-mendez-rodriguez-b0b505265/'><i className="fa-brands fa-linkedin"></i></a>

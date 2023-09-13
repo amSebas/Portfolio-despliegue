@@ -32,26 +32,26 @@ export default function Contact () {
     return(
         <div className='content'> 
             <h1>Contact</h1> 
-            <h2 className='question'>Tienes alguna pregunta?</h2>
+            <h2 className='question'>¿Tienes alguna pregunta?</h2>
             <div className='contact'>
                 <div className='card-content'>
                     <i className="fa-solid fa-phone"></i>
-                    <h2>Llamame!</h2>
+                    <h2>¡Llámame!</h2>
                     <h3>+57 3228010388</h3>
                 </div>
                 <div className='card-content'>
                     <i className="fa-solid fa-location-dot"></i>
                     <h2>Ubicación</h2>
-                    <h3>Bogota, Colombia</h3>
+                    <h3>Bogotá, Colombia</h3>
                 </div>
                 <div className='card-content'>
                     <i className="fa-solid fa-envelope"></i>
-                    <h2>Enviame un email</h2>
+                    <h2>Mándame un mensaje por email</h2>
                     <h3>sebaslgr@gmail.com</h3>
                 </div>
             </div>
             <div className='text-before-form'>
-              <h2>Enviame un email</h2>
+              <h2>Envíame un email</h2>
               <h3>¡Soy muy atento!</h3>
             </div>
             <form className='grid-input' id='form' onSubmit={handleSubmit(onSubmit)}>

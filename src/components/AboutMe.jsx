@@ -7,11 +7,11 @@ export default function AboutMe () {
                 <h1>About Me</h1>
             </div>
             <div className='content-box'>
-                <h2>Sebastian, como desarrollador frontend</h2>
-                <h3>Soy Juan Sebastian Mendez Rodriguez, Desarrollador Web Front-end Auto-motivado con mucha disposicion de 
+                <h2>Sebastián, como desarrollador frontend</h2>
+                <h3>Soy Juan Sebastián Méndez Rodríguez, Desarrollador Web Front-end Automotivado con mucha disposición de 
                     crecer laboralmente y seguir ampliando mi conocimiento en el desarrollo. Puedo hacer corrección 
                     de errores en su sitio web o agregar más características a sus sitios web. Puedo 
-                    convertir su diseño deseado en trabajo real según su requisito. Pondré todo mi empeño y dedicacion 
+                    convertir su diseño deseado en trabajo real según su requisito. Pondré todo mi empeño y dedicación 
                     para asegurar el 100% de satisfacción, entrega rápida y servicios de calidad. 
                     Trabajar conmigo significa trabajar en un ambiente relajado y amistoso.
                     Creatividad, Competencia Profesional y responsabilidad, son las palabras clave que describen mi trabajo.
@@ -94,7 +94,7 @@ export default function AboutMe () {
                                     <i className="fa-solid fa-calendar"></i>
                                     <p> Culminado 2022</p>
                                 </div>
-                                <h3>Colegio de formacion integral mundo nuevo</h3>
+                                <h3>Colegio de formación integral mundo nuevo</h3>
                                 <p>Estudios de bachiller finalizados en noviembre 2022</p>
                             </div>
                         </div>

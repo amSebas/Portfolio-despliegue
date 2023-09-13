@@ -16,7 +16,7 @@ export default function Portfolio () {
                         </a>
                         <h3 className='description'>Description:</h3>
                         <div className='text-description'>
-                            <p>Genero-front es un pagina que funciona como banco</p>
+                            <p>Género-front es una pagina que funciona como banco</p>
                             <p> de recursos acerca de las primeras olas del feminismo</p>
                         </div>
                         <a href='https://github.com/programateacademy/genero-front'>
@@ -32,8 +32,8 @@ export default function Portfolio () {
                         </a>
                         <h3 className='description'>Description:</h3>
                         <div className='text-description'>
-                            <p>Pokedex es una pagina que genera una tabla de los</p>
-                            <p>primeros 150 pokemones consumiendo la api Poke.api</p>
+                            <p>Pokedex es una página que genera una tabla de los</p>
+                            <p>Primeros 150 pokemones consumiendo la API Poke. API</p>
                         </div>
                         <a href='https://github.com/JSebastian08/pokedex'>
                             <i className="fa-brands fa-github"></i>
@@ -48,7 +48,7 @@ export default function Portfolio () {
                         </a>
                         <h3 className='description'>Description:</h3>
                         <div className='text-description'>
-                            <p>To Do es una pagina en la cual se pueden añadir y</p>
+                            <p>To Do es una página en la cual se pueden añadir y</p>
                             <p>Eliminar tareas, tambien se puede cambiar el fondo</p>
                         </div>
                         <a href='https://github.com/amSebas/react-list'>
