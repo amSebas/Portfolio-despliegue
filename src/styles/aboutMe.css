@@ -44,11 +44,23 @@
     margin: 5px;
 }
 
-.education{
+.education, .details-experience{
     padding: 20px;
     border-radius: 10px;
     background-color: #9CBBCF;
     color: rgb(0, 0, 0);
+}
+
+.details-experience h3 {
+    margin: 0;
+}
+
+.titles, .experience-description {
+    margin-bottom: 20px;
+}
+
+.experience-link {
+    color: #025f9c;
 }
 
 .details{
@@ -67,12 +79,6 @@
     margin-right: 10px;
 }
 
-.experience h3 {
-    padding: 20px;
-    color: black;
-    background-color: #9CBBCF;
-    border-radius: 10px;
-}
 
 @media ( max-width: 500px ) {
     .information-box.grid{

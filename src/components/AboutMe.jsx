@@ -84,24 +84,34 @@ export default function AboutMe () {
                             <div className='details'>
                                 <div className='year'>
                                     <i className="fa-solid fa-calendar"></i>
-                                    <p> Culminado 2022</p>
-                                </div>
-                                <h3>Colegio de formacion integral mundo nuevo</h3>
-                                <p>Estudios de bachiller finalizados en noviembre 2022</p>
-                            </div>
-                            <div className='details'>
-                                <div className='year'>
-                                    <i className="fa-solid fa-calendar"></i>
                                     <p> Culminado 2023</p>
                                 </div>
                                 <h3>Educamás</h3>
                                 <p>Bootcamp Desarrollo web front-end</p>
                             </div>
+                            <div className='details'>
+                                <div className='year'>
+                                    <i className="fa-solid fa-calendar"></i>
+                                    <p> Culminado 2022</p>
+                                </div>
+                                <h3>Colegio de formacion integral mundo nuevo</h3>
+                                <p>Estudios de bachiller finalizados en noviembre 2022</p>
+                            </div>
                         </div>
                     </div>
                     <div className='experience'>
                         <h2>Experience</h2>
-                        <h3>Coming soon...</h3>
+                        <div className='details-experience'>
+                                <div className='year'>
+                                    <i className="fa-solid fa-briefcase"></i> <p>Julio 2023 - Agosto 2023</p>
+                                </div>
+                                <div className='titles'>
+                                    <h3>Proyecto Genero Front</h3>
+                                    <p>Bootcamp Desarrollo web front-end</p>
+                                </div>
+                                <p className='experience-description'>Banco de recursos acerca del feminismo trabajada con react</p>
+                                <a className='experience-link' href="https://genero-front-six.vercel.app/">¡Mirame!</a>
+                            </div>
                     </div>
                 </div>
                 </div>  
