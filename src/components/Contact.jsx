@@ -14,7 +14,7 @@ export default function Contact () {
     
     emailjs.send(
       'service_vfku1yv', 
-      'template_cd2wjzj', 
+      'template_6mpi2yy', 
        templateParams ,
       'LRxNH6JKhqn7_y75P'
     )
