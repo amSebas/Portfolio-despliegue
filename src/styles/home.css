@@ -76,6 +76,10 @@
     }
 }
 
+.buttons {
+    display: flex;
+}
+
 .btn{
     position: relative;
     background-color: #fff;
@@ -84,7 +88,6 @@
     margin: 0 20px 0 0;
     padding: 10px;
     border-radius: 5px;
-    scale: 0;
     animation:blur-in 0.4s linear both
 }
 
@@ -166,18 +169,25 @@
     }
 }
 
-@media (max-width: 495px){
-    .buttons{
-        display: flex;
-        flex-direction: column;
+@media (max-width: 770px) {
+    .text-box {
+        margin-right: 0;
     }
+}
 
+@media (max-width: 770px) {
+    .btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 495px){
     .btn{
         max-width: 150px;
         margin-bottom: 10px;
     }
     .social-media{
         padding: 0 0 20px 0;
-        margin: 0 0 20px 0;
+        margin: 20px 0;
     }
 }

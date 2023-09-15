@@ -7,7 +7,7 @@
 .contact {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px auto;
+    padding: 0 10%;
     gap: 50px;
 }
 
@@ -125,8 +125,17 @@
 
 /*-------------------------------------------media-queries----------------------------------------------------*/
 
+@media ( max-width:1025px ) {
+    .contact {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media ( max-width:425px ) {
     .contact {
         grid-template-columns: 1fr;
+    }
+    .btn-submit {
+        margin-bottom: 80px;
     }
 }

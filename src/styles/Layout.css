@@ -59,15 +59,14 @@
   }
 }
 
-@media (max-width: 495px){
-
+@media (max-width: 590px){
   .navigation {
-    top: 94.5%;
-    height: 3rem;
+    top: 92.5%;
+    height: 4rem;
   }
 
   .navigation a{
-      font-size: 13px;
+      font-size: 16px;
   }
 
   .div-box {
@@ -78,22 +77,26 @@
 
   .nativation.active, .div-box:hover {
     background-color: #aed0e9;
-    font-size: 14px;
+    font-size: 17px;
     border-radius: 10px;
     color: #fff;
     border: none;
   }
 }
 
-@media (max-width: 375px){
-  .navigation{
-      top: 95%;
-      height: 3rem;
+@media (max-width: 495px){
+  .navigation a{
+      font-size: 13px;
   }
+  .nativation.active, .div-box:hover {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px){
   .navigation a{
       font-size: 12px;   
   }
-
   .nativation.active, .div-box:hover{
       font-size: 14px;
   }
@@ -104,8 +107,8 @@
 
 @media (max-width: 320px){
   .navigation{
-      top: 95%;
-      height: 3rem;
+      top: 92.5%;
+      height: 3.5rem;
       width: 100%;
   }
   .navigation a{

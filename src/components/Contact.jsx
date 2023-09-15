@@ -46,7 +46,7 @@ export default function Contact () {
                 </div>
                 <div className='card-content'>
                     <i className="fa-solid fa-envelope"></i>
-                    <h2>Mándame un mensaje por email</h2>
+                    <h2>Mándame un email</h2>
                     <h3>sebaslgr@gmail.com</h3>
                 </div>
             </div>
