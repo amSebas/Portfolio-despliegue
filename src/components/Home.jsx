@@ -16,11 +16,11 @@ export default function Home () {
                     </h3>
                     <div className='buttons'>
                         <a className='btn' href='./AboutMe'>Más acerca de mí</a>
-                        <a className='btn' href='https://drive.google.com/file/d/13MnaIhoQS_gSZBMarazLKBejmPArHey4/view?usp=sharing'>Descargar CV</a>
+                        <a className='btn' href='https://drive.google.com/file/d/1PP5NQNKUhacLLdCuoqRA3uxSR0JZlXqL/view?usp=sharing'>Descargar CV</a>
                     </div>
                     <div className='social-media'>
-                        <a href='https://www.linkedin.com/in/juan-sebastian-mendez-rodriguez-b0b505265/'><i className="fa-brands fa-linkedin"></i></a>
-                        <a href='https://torre.ai/juansebastianmendezrodriguez?view=opportunities-dialog&r=bDammMXp'><i className="fa-solid fa-tower-observation"></i></a>  
+                        <a href='https://www.linkedin.com/in/mendezsebas/'><i className="fa-brands fa-linkedin"></i></a>
+                        <a href='https://torre.ai/mendezsebas?r=bDammMXp'><i className="fa-solid fa-tower-observation"></i></a>  
                         <a href='https://api.whatsapp.com/send?phone=573228010388&text=hola%2C%20me%20interesa%20contratar%20tus%20servicios'><i className="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
